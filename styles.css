@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.container {
+    text-align: center;
+}
+
+.animated-text {
+    font-size: 4rem;
+    font-weight: bold;
+    opacity: 0;
+}
+
+#privacy-text {
+    color: white;
+}
+
+#policy-text {
+    color: #999;
+}
+
+.apple-logo img {
+    max-width: 200px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.privacy-policy-content {
+    margin-top: 20px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.privacy-policy-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.privacy-policy-content li {
+    margin: 10px 0;
+    opacity: 0;
+    transform: translateX(-20px);
+    transition: all 0.5s ease;
+    color: #999;
+}
+
